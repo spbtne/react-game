@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-wrapper {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+
+  align-content: center;
+  justify-self: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 3rem;
+}

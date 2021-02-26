@@ -1,0 +1,20 @@
+.statistics-wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  justify-items: center;
+
+  width: 450px;
+}
+
+.statistics-item {
+  font-size: 1.25rem;
+  :first-of-type {
+    font-weight: bold;
+  }
+  p {
+    padding: 5px;
+    text-align: center;
+  }
+}

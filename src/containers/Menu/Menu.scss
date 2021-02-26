@@ -1,0 +1,9 @@
+.menu-wrapper {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+
+  width: 450px;
+
+  margin: 0 auto;
+}
