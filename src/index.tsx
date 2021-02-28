@@ -16,12 +16,12 @@ const App = () => {
       <Statistics/>
       <Router>
         <Switch>
-         <Route exact path='/'> 
+          <Route exact path='/'> 
            <Board/>
            <Menu/>
-         </Route>
-         <Route path='/settings'><Settings /></Route>
-         </Switch>
+          </Route>
+          <Route path='/settings'><Settings /></Route>
+        </Switch>
       </Router>
     </div>
   );

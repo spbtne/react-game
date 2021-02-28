@@ -1,23 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Cell from '../../components/Cell/Cell';
+import { cellData } from './../../redux/storage';
 
 import './Board.scss'
-
-interface Cell_I {
-    index: number,
-    value: string,
-    isCrossed: boolean
-}
-
-const cellData: Array<Cell_I> = Array.from({length: 9}, (v,k) => {
-return {
-    index: k,
-    value: '',
-    isCrossed: false,
-    onClick: Function
-}
-})
-
 
 const Board = ():JSX.Element => {
     return (
@@ -32,4 +18,8 @@ const Board = ():JSX.Element => {
         </div>
     )
 }
+
 export default Board;
+
+
+
